@@ -46,11 +46,11 @@ const LiveChat: React.FC<LiveChatProps> = ({ patientName, onClose }) => {
   
   // Mock responses from the patient
   const patientResponses = [
-    "I fell down, but I think I'm okay.",
-    "My chest hurts a bit.",
-    "I'm feeling dizzy.",
-    "I need help, please.",
-    "I'm having trouble breathing.",
+    "janu may get collaps due to low heartrate",
+    "ram's blood glucose level is too low",
+    "balaji's body temperature is low may be he is in hypothermia.",
+    
+    "he is having trouble breathing.",
   ];
   
   // Auto-scroll to bottom when messages change
