@@ -21,6 +21,25 @@ const LiveChat: React.FC<LiveChatProps> = ({ patientName, onClose }) => {
       sender: 'responder',
       timestamp: new Date(Date.now() - 60000),
     },
+    {
+      id: '2',
+      text: `balaji's body temperature is low may be he is in hypothermia.`,
+      sender: 'responder',
+      timestamp: new Date(Date.now() - 60000),
+    },
+    {
+      id: '3',
+      text: `ram's blood glucose level is too low,
+      he may get an dizzinass`,
+      sender: 'responder',
+      timestamp: new Date(Date.now() - 60000),
+    },
+    {
+      id: '4',
+      text: `janu may get collaps due to low heartrate`,
+      sender: 'responder',
+      timestamp: new Date(Date.now() - 60000),
+    },
   ]);
   const [newMessage, setNewMessage] = useState('');
   const messagesEndRef = useRef<HTMLDivElement>(null);
